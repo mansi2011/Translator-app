@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+
+body{
+    font-family: 'Kalam', cursive;
+    margin: 0;
+}
+:root{
+    --banana-color: #EAB308;
+}
+
+textarea{
+    padding: 2rem;
+    width: 80%;
+    font-family: 'Kalam', cursive;
+    font-size: larger;
+    padding-bottom: 1rem;
+}
+#output{
+    padding: 2rem;
+    width: 80%;
+    border: 1px solid black;
+    height: 2rem;  
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+
+}
+
+body h1{
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin:auto;
+    background-color: var(--banana-color);
+}
+
+body p{
+    padding-bottom: 1rem;
+    font-size: medium;
+}
+
+button{
+    background-color: var(--banana-color);
+    border-style: none;
+    padding: 1rem 1rem;
+    font-family: 'Kalam', cursive;
+    font-size: larger;
+    cursor: pointer;
+
+}
+
+footer{
+    background-color: var(--banana-color);
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer p{
+    max-width: 600px;
+    margin: auto;
+}
+
+
+
+
